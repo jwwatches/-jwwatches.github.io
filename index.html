@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curated collection of white dial luxury watches from $5,000 to $100,000. Expert reviews of Rolex, Omega, Cartier, and more from authorized dealers like Jomashop and Ashford.">
+    <meta name="keywords" content="white dial watches, luxury watches, white face watches, Rolex white dial, Omega white dial, luxury watch reviews">
+    <title>White Dial Luxury Watches | Expert Reviews & Buying Guides</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --gold: #C9A961;
+            --deep-navy: #0A1628;
+            --off-white: #F8F6F3;
+            --silver: #E8E8E8;
+            --charcoal: #2C2C2C;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.7;
+            color: var(--charcoal);
+            background: var(--off-white);
+            overflow-x: hidden;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--deep-navy) 0%, #1a2940 100%);
+            color: var(--off-white);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 3rem;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--gold);
+            text-transform: uppercase;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--off-white);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+        
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--deep-navy) 0%, #2a3f5f 100%);
+            color: var(--off-white);
+            padding: 8rem 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(201, 169, 97, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero h1 {
+            font-size: 4.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--off-white);
+            letter-spacing: 1px;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            color: var(--silver);
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+        
+        .accent-line {
+            width: 80px;
+            height: 2px;
+            background: var(--gold);
+            margin: 2rem auto;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 3rem;
+        }
+        
+        /* Introduction Section */
+        .intro-section {
+            padding: 6rem 0;
+            text-align: center;
+        }
+        
+        .intro-section h2 {
+            font-size: 3rem;
+            color: var(--deep-navy);
+            margin-bottom: 1.5rem;
+        }
+        
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: #555;
+        }
+        
+        /* Featured Watches Grid */
+        .watches-section {
+            padding: 4rem 0 8rem;
+            background: white;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .section-header h2 {
+            font-size: 3.5rem;
+            color: var(--deep-navy);
+            margin-bottom: 1rem;
+        }
+        
+        .section-header p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .watches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .watch-card {
+            background: var(--off-white);
+            border-radius: 0;
+            overflow: hidden;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .watch-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        
+        .watch-image {
+            width: 100%;
+            height: 320px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            color: #ccc;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .watch-image::before {
+            content: '⌚';
+            position: absolute;
+            font-size: 8rem;
+            opacity: 0.3;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .watch-info {
+            padding: 2rem;
+        }
+        
+        .watch-brand {
+            font-size: 0.85rem;
+            color: var(--gold);
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        
+        .watch-name {
+            font-size: 1.8rem;
+            color: var(--deep-navy);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .watch-description {
+            font-size: 0.95rem;
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .watch-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .spec {
+            font-size: 0.85rem;
+            color: #888;
+        }
+        
+        .spec strong {
+            color: var(--charcoal);
+            font-weight: 600;
+        }
+        
+        .watch-price {
+            font-size: 2rem;
+            color: var(--deep-navy);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        .retailer-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.9rem 1.8rem;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background: var(--gold);
+            color: var(--deep-navy);
+        }
+        
+        .btn-primary:hover {
+            background: #b89850;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 169, 97, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--deep-navy);
+            border: 2px solid var(--deep-navy);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--deep-navy);
+            color: white;
+        }
+        
+        /* Why White Dials Section */
+        .why-section {
+            padding: 6rem 0;
+            background: var(--deep-navy);
+            color: var(--off-white);
+        }
+        
+        .why-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .why-content h2 {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            color: var(--off-white);
+        }
+        
+        .why-content p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            color: var(--silver);
+        }
+        
+        /* Features Grid */
+        .features-section {
+            padding: 6rem 0;
+            background: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .feature-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+        
+        .feature h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--deep-navy);
+        }
+        
+        .feature p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--deep-navy);
+            color: var(--silver);
+            padding: 3rem 0 2rem;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .disclaimer {
+            font-size: 0.85rem;
+            color: #999;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 1.5rem;
+            }
+            
+            .nav-links {
+                gap: 1.5rem;
+            }
+            
+            .hero {
+                padding: 5rem 2rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .container {
+                padding: 0 1.5rem;
+            }
+            
+            .watches-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .section-header h2 {
+                font-size: 2.5rem;
+            }
+            
+            .intro-section h2,
+            .why-content h2 {
+                font-size: 2.2rem;
+            }
+            
+            .retailer-links {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">JW Watches</div>
+            <ul class="nav-links">
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#why">Why White Dials</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>White Dial Luxury Watches</h1>
+            <div class="accent-line"></div>
+            <p class="hero-subtitle">Curated collection of the finest white dial timepieces from $5,000 to $100,000. Expert reviews, authentic dealers, timeless elegance.</p>
+        </div>
+    </section>
+
+    <section class="intro-section">
+        <div class="container">
+            <h2>The Timeless Appeal of White</h2>
+            <p class="intro-text">
+                White dial watches represent the pinnacle of horological refinement. From boardroom to black tie, 
+                these timepieces offer unmatched versatility and legibility. We specialize in curating only the 
+                finest white dial luxury watches from trusted retailers, ensuring authenticity and exceptional value 
+                for discerning collectors.
+            </p>
+        </div>
+    </section>
+
+    <section class="watches-section" id="featured">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Timepieces</h2>
+                <p>Hand-selected white dial luxury watches from authorized dealers</p>
+            </div>
+            
+            <div class="watches-grid">
+                <!-- Watch 1 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #e8e8e8 0%, #f5f5f5 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">Rolex</div>
+                        <h3 class="watch-name">Datejust 41 White Dial</h3>
+                        <p class="watch-description">
+                            The iconic Rolex Datejust with pristine white dial, fluted bezel, and Jubilee bracelet. 
+                            A perfect balance of sport and elegance that defines timeless luxury.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 41mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Automatic</span>
+                            <span class="spec"><strong>Water Resist:</strong> 100m</span>
+                        </div>
+                        <div class="watch-price">$11,500</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('Rolex Datejust', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('Rolex Datejust', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 2 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">Omega</div>
+                        <h3 class="watch-name">Seamaster Aqua Terra White</h3>
+                        <p class="watch-description">
+                            Omega's versatile luxury sports watch featuring a clean white dial with horizontal teak pattern. 
+                            Master Chronometer certified for precision and magnetic resistance.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 41mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Co-Axial</span>
+                            <span class="spec"><strong>Water Resist:</strong> 150m</span>
+                        </div>
+                        <div class="watch-price">$6,200</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('Omega Seamaster', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('Omega Seamaster', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 3 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #ececec 0%, #d8d8d8 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">Cartier</div>
+                        <h3 class="watch-name">Santos de Cartier Large</h3>
+                        <p class="watch-description">
+                            The legendary aviator watch reimagined. White dial with Roman numerals, blue sword hands, 
+                            and Cartier's signature exposed screws create an unmistakable presence.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 39.8mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Automatic</span>
+                            <span class="spec"><strong>Water Resist:</strong> 100m</span>
+                        </div>
+                        <div class="watch-price">$7,850</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('Cartier Santos', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('Cartier Santos', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 4 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #e5e5e5 0%, #f8f8f8 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">Breitling</div>
+                        <h3 class="watch-name">Navitimer 1 Automatic 41</h3>
+                        <p class="watch-description">
+                            Aviation legend with pristine white dial and iconic slide rule bezel. 
+                            The perfect blend of functionality and luxury for pilots and enthusiasts alike.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 41mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Automatic</span>
+                            <span class="spec"><strong>Water Resist:</strong> 30m</span>
+                        </div>
+                        <div class="watch-price">$5,450</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('Breitling Navitimer', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('Breitling Navitimer', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 5 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #f2f2f2 0%, #e8e8e8 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">Jaeger-LeCoultre</div>
+                        <h3 class="watch-name">Master Ultra Thin Moon</h3>
+                        <p class="watch-description">
+                            Elegant dress watch featuring a silver-white dial with moon phase complication. 
+                            Ultra-thin profile and refined finishing make this a true connoisseur's choice.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 39mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Automatic</span>
+                            <span class="spec"><strong>Water Resist:</strong> 50m</span>
+                        </div>
+                        <div class="watch-price">$11,200</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('JLC Master', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('JLC Master', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 6 -->
+                <div class="watch-card">
+                    <div class="watch-image" style="background: linear-gradient(135deg, #ebebeb 0%, #f5f5f5 100%);"></div>
+                    <div class="watch-info">
+                        <div class="watch-brand">IWC</div>
+                        <h3 class="watch-name">Portugieser Automatic</h3>
+                        <p class="watch-description">
+                            Classic Portuguese design with pristine white dial and leaf-shaped hands. 
+                            Exceptional readability and timeless proportions define this horological icon.
+                        </p>
+                        <div class="watch-specs">
+                            <span class="spec"><strong>Case:</strong> 40.9mm Steel</span>
+                            <span class="spec"><strong>Movement:</strong> Automatic</span>
+                            <span class="spec"><strong>Water Resist:</strong> 30m</span>
+                        </div>
+                        <div class="watch-price">$12,800</div>
+                        <div class="retailer-links">
+                            <a href="https://www.jomashop.com" target="_blank" class="btn btn-primary" onclick="trackClick('IWC Portugieser', 'Jomashop')">View on Jomashop</a>
+                            <a href="https://www.ashford.com" target="_blank" class="btn btn-secondary" onclick="trackClick('IWC Portugieser', 'Ashford')">View on Ashford</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-section" id="why">
+        <div class="container">
+            <div class="why-content">
+                <h2>Why White Dial Watches?</h2>
+                <p>
+                    White dials offer unparalleled legibility in any lighting condition, making them the choice of 
+                    professionals and collectors who demand both form and function. The clean canvas allows 
+                    complications and handwork to truly shine, while providing a sophisticated versatility that 
+                    transitions seamlessly from business to leisure.
+                </p>
+                <p>
+                    Unlike trend-driven dial colors, white has remained a constant in haute horlogerie for over 
+                    a century. A white dial watch is an investment in timeless style—it will never look dated, 
+                    and it pairs effortlessly with any wardrobe. From the boardroom to the beach, a white dial 
+                    luxury watch makes the perfect statement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Shop With Us</h2>
+                <p>Expert curation meets trusted retailers for your peace of mind</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">✓</span>
+                    <h3>Curated Selection</h3>
+                    <p>Every watch is hand-selected based on design excellence, brand heritage, and value retention. We feature only the finest white dial luxury timepieces.</p>
+                </div>
+                
+                <div class="feature">
+                    <span class="feature-icon">🔒</span>
+                    <h3>Trusted Retailers</h3>
+                    <p>We partner exclusively with established retailers like Jomashop and Ashford—dealers with decades of experience and verified authenticity guarantees.</p>
+                </div>
+                
+                <div class="feature">
+                    <span class="feature-icon">💎</span>
+                    <h3>Expert Insights</h3>
+                    <p>In-depth reviews from a genuine collector who understands the nuances of luxury horology. Real experience, honest opinions, no fluff.</p>
+                </div>
+                
+                <div class="feature">
+                    <span class="feature-icon">📊</span>
+                    <h3>Best Prices</h3>
+                    <p>Compare prices across multiple authorized dealers to ensure you're getting exceptional value on your investment timepiece.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="margin-bottom: 1.5rem;">JW Watches</div>
+                <p style="margin-bottom: 1rem;">Your trusted source for white dial luxury watch reviews and guides.</p>
+                <p class="disclaimer">
+                    <strong>Affiliate Disclosure:</strong> This website contains affiliate links to Jomashop, Ashford, and other 
+                    watch retailers. When you click through and make a purchase, we may earn a commission at no additional 
+                    cost to you. This helps us maintain the site and continue providing detailed reviews. We only recommend 
+                    retailers we trust and watches we believe offer genuine value to collectors.
+                </p>
+                <p style="margin-top: 2rem; font-size: 0.85rem; color: #999;">
+                    © 2026 JW Watches. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Affiliate link tracking
+        function trackClick(watchName, retailer) {
+            console.log('Click tracked:', watchName, 'on', retailer);
+            // When you get your actual affiliate links from CJ, you'll replace the URLs above
+            // and this function can be used to add additional analytics tracking
+        }
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
